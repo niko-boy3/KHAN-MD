@@ -10,8 +10,8 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     // ===== BOT CORE SETTINGS =====
-    SESSION_ID: process.env.SESSION_ID || "",  // Your bot's session ID (keep it secure)
-    XDEV: process.env.XDEV || "",  // Github Username 
+    SESSION_ID: process.env.SESSION_ID || "JK~H4sIAAAAAAAAA5VUWbOiOBT+L3nVahYBxapbNYgKiAvg7tQ8BAgQZbskbHb536fQvn37YabnDk8hSZ3znW/Jd5BmmCATtWD8HeQFriBF3ZK2OQJjMCmDABWgD3xIIRiDZPZ+nra7qd/burEz1cOT6VkKSuJ2uznKFi/dW77EQiXfbm/g0Qd56cbY+03BijUSKTQdrMlalLeXPNMOVXuyN5PGr9o9M5QnNvGuhDkJb+DRVYS4wGk4yyOUoALGJmotiIuvwTcn3nJKr3MvbitntuYd53YzFnc+pfTsJvfs3Fq+mDgoTuuvwY8Tbe8e7Ggbc044n+hZ/b4XDbvnFWSzukdiY9fybiOFpqK84BMcpsg3fJRSTNsv836eIOXsRgzM+Nps0WAypyPu1DpMi1CFFuJ9rp3CmxmXt/CLwBW55Jp1Mnc80+Pva2kRl0crryvVOTWua9BzWu057rS4178Ct4oPr9z+D+/ZLBN6jl5Gs3e2t5qnin9EMfL3LbMJaXuaYC3j8d03nET5GvzFrpy411i+S3lpHnODk5tUUxy/rbTB4Wqx1o45Gu7pkh7sT/iQlsXvUBJyDZESidB/H9aNfbfrbHlJNEaPec2PteGg3cnO+rhQb1Jz5oZlQzUarw60CO9tWsvLQOPud0MdCi5DAnXbNPPEU5S350Q31Bo+GHOPPihQiAktIMVZ+twbCn0A/WqLvALRJ70gO/SK636+Lg83Z8XMj3puMLekcVG1ETDNh8jjyGIpyN6afQN9kBeZhwhBvo4JzYp2hQiBISJg/OdffZCihr6E69oNuD4IcEHoPi3zOIP+h6ofh9DzsjKl2zb11G6BCjBmP7cRpTgNScdjmcLCi3CF1AhSAsYBjAn6OSEqkA/GtCjRz9Sqmd8Rb+rKejdTddAHyVMQ7IMxkIUhK7A8ywnSWJT/IN/qrirM828poqAP4uctbjiSWH4wkkcSK0rPm93B4yfArp6PKMQxAWOgWtgccsQWL2jXKuezghXlGcbPgT6c8WJe2e+2wlWNRBnySnQpnUXV1PopHF51eZgTok9mNa8YzIBl/6kIGIORYqtSst6om3c2aunZHh3W0dpcxGU1JX4qto63qoNanF7rq8brAucZFyKvlsxI4ZWe2WvXRiS52ey8Ik699FYDa2iq9VvXzUcV9tCvzYpjc2LMwnfxWXQInNnsKHnf7TVndOV3S/FkB+5UwKZlSRduv73NuXof4JwEi8bRmnQf11tWEkOhrL2dgm+20awYMg1fnn1mJv7xVuGnmzqput8Ao2f0U9gJ+J/SvXB3BmMf/V9K/HhL/iWPE3s+Y0ujzlBwpKFxdG9bd+RNOGEjNAyS3OWkdlbrULVkeQ0ej7/6II8hDbIiAWMAU7/IsA/6oMjKzrFGGmS/aaYqoTG1X4PHkFDlMwU7nCBCYZJ3WZU4medZXnjdsoos1yGJOmOaQqQLnaVbJc+3FNKPUAGl+/QEgsffIlRT/nAHAAA=",  // Your bot's session ID (keep it secure)
+    XDEV: process.env.XDEV || "niko-boy3",  // Github Username 
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     CHATBOT: getConfig("CHATBOT") || "off", // on/off chat bot 
     BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "KHAN-MD",  // Bot's display name
@@ -20,10 +20,10 @@ module.exports = {
     BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",  // Bot's BAILEYS
 
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "923427582273",  // Owner's WhatsApp number
-    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "Jᴀᴡᴀᴅ TᴇᴄʜX",           // Owner's name
-    DEV: process.env.DEV || "923427582273",                     // Developer's contact number
-    DEVELOPER_NUMBER: '923427582273@s.whatsapp.net',            // Developer's WhatsApp ID
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "94704020146",  // Owner's WhatsApp number
+    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "MR NIKO",           // Owner's name
+    DEV: process.env.DEV || "94743595243",                     // Developer's contact number
+    DEVELOPER_NUMBER: '943595243@s.whatsapp.net',            // Developer's WhatsApp ID
 
     // ===== AUTO-RESPONSE SETTINGS =====
     AUTO_REPLY: process.env.AUTO_REPLY || "false",              // Enable/disable auto-reply
@@ -42,7 +42,7 @@ module.exports = {
     AUTO_RECORDING: process.env.AUTO_RECORDING || "false",      // Auto-record voice notes?
     AUTO_TYPING: process.env.AUTO_TYPING || "false",            // Show typing indicator?
     MENTION_REPLY: process.env.MENTION_REPLY || "false",   // reply on mentioned message 
-    MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/7zfdcq.jpg",  // Bot's "alive" menu mention image
+    MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://ibb.co/fV5dgkZS",  // Bot's "alive" menu mention image
 
     // ===== SECURITY & ANTI-FEATURES =====
     ANTI_DELETE: process.env.ANTI_DELETE || "true", // true antidelete to recover deleted messages 
